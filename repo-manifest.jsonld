@@ -1,0 +1,608 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/apache/commons-lang",
+  "@type": "gh:Repository",
+  "gh:name": "commons-lang",
+  "gh:owner": "apache",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/5d2715b9da13fb584058d264c46dfed6bcc700d1",
+      "git:hexsha": "5d2715b9da13fb584058d264c46dfed6bcc700d1",
+      "repolex:parseStatus": "metadata_complete"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/2d274d7cedc148ee3fa8cf4f48904dfd82172bda",
+      "git:hexsha": "2d274d7cedc148ee3fa8cf4f48904dfd82172bda",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_1_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e1e9d4d7c84809fea2f91d600d29f4a65cffb1d4",
+      "git:hexsha": "e1e9d4d7c84809fea2f91d600d29f4a65cffb1d4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_1_0_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/9b7f1759750058b52d260be09b910f52649ea17d",
+      "git:hexsha": "9b7f1759750058b52d260be09b910f52649ea17d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_1_0_B1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/84596200e2ab657f8cb19ff8dc0c991bbe80f820",
+      "git:hexsha": "84596200e2ab657f8cb19ff8dc0c991bbe80f820",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_1_0_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c2d14ce1e65eb3f243a362137b48112076620d08",
+      "git:hexsha": "c2d14ce1e65eb3f243a362137b48112076620d08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_1_0_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/da5d64110a8b7182d04359958f40fadfbe1ed6ff",
+      "git:hexsha": "da5d64110a8b7182d04359958f40fadfbe1ed6ff",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/9bf07f0d91bc98b286f6c3e8329ad16d3984babe",
+      "git:hexsha": "9bf07f0d91bc98b286f6c3e8329ad16d3984babe",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_0_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/6022cb2c0c0761889f8c1efd0549d6074e4a68aa",
+      "git:hexsha": "6022cb2c0c0761889f8c1efd0549d6074e4a68aa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_0_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e358f2112a6a1bb453c70227fe8ab82b88dffa16",
+      "git:hexsha": "e358f2112a6a1bb453c70227fe8ab82b88dffa16",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_0_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/81f1077a922523a1f6a76376215a1b3de1e49b67",
+      "git:hexsha": "81f1077a922523a1f6a76376215a1b3de1e49b67",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/920de8290eb04ef73e681b972abb12459c7638e2",
+      "git:hexsha": "920de8290eb04ef73e681b972abb12459c7638e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/ee6890bb3e8509c81c4043456a625accb1edbb01",
+      "git:hexsha": "ee6890bb3e8509c81c4043456a625accb1edbb01",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/29ecbaf7e8da185fbdcb0d3fb579cd56d5dd3ead",
+      "git:hexsha": "29ecbaf7e8da185fbdcb0d3fb579cd56d5dd3ead",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e258636a5d444af237638f02b6a3237c20a3aea0",
+      "git:hexsha": "e258636a5d444af237638f02b6a3237c20a3aea0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/6a39c58876436619be832b4979f5a7d16de3e1a1",
+      "git:hexsha": "6a39c58876436619be832b4979f5a7d16de3e1a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/afa69e683ce100a042c7430d6b2f3e3ed7e31d4a",
+      "git:hexsha": "afa69e683ce100a042c7430d6b2f3e3ed7e31d4a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC7"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/d6535dd5fe2e6129f1cea78f6a90997470cfa543",
+      "git:hexsha": "d6535dd5fe2e6129f1cea78f6a90997470cfa543",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_1_RC8"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/bdf2ede50ed073d91389be55ec3a9cff565c58a5",
+      "git:hexsha": "bdf2ede50ed073d91389be55ec3a9cff565c58a5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c3daec0d23340a25a189d9abe9a465ab4d6e3db5",
+      "git:hexsha": "c3daec0d23340a25a189d9abe9a465ab4d6e3db5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_2_DEV_STYLE"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/cc233441f2fe80dd658c7bea1c0384675afce55f",
+      "git:hexsha": "cc233441f2fe80dd658c7bea1c0384675afce55f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_2_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/737913a241ae3b88bb8f0ea1a7df161efb6348f6",
+      "git:hexsha": "737913a241ae3b88bb8f0ea1a7df161efb6348f6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_2_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/010845ae7b145637882f425b10552befeb77fdd3",
+      "git:hexsha": "010845ae7b145637882f425b10552befeb77fdd3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_2_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4e55808486a0227a72c70350a76d33660cc94af8",
+      "git:hexsha": "4e55808486a0227a72c70350a76d33660cc94af8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/eb59de312a4ed8fb452233594bc7832c361c7c8a",
+      "git:hexsha": "eb59de312a4ed8fb452233594bc7832c361c7c8a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_3_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4f18effb914bf79a494e7b0bd97b2528eaf8ad60",
+      "git:hexsha": "4f18effb914bf79a494e7b0bd97b2528eaf8ad60",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_3_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/6a3b1617c312199c4dc6fad4b55bc9e47fb4f7a1",
+      "git:hexsha": "6a3b1617c312199c4dc6fad4b55bc9e47fb4f7a1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_3_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/aa9727e15966bac899aa18733ef85c4aded19f0c",
+      "git:hexsha": "aa9727e15966bac899aa18733ef85c4aded19f0c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/8b5847079dff9780fbcc62fe4f07e66f902308c2",
+      "git:hexsha": "8b5847079dff9780fbcc62fe4f07e66f902308c2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_4_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/f8d7fa25fd640329c0e6f7f19e4b01d93f0581df",
+      "git:hexsha": "f8d7fa25fd640329c0e6f7f19e4b01d93f0581df",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_4_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/9730012b9ca500c6059d724aaa02cf50ebbed47d",
+      "git:hexsha": "9730012b9ca500c6059d724aaa02cf50ebbed47d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_4_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/7c4386cb877d99d733b531f4fba2a328a3951767",
+      "git:hexsha": "7c4386cb877d99d733b531f4fba2a328a3951767",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_5"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4f0482dac9df0e0fa146412dcaaaad230d077d8d",
+      "git:hexsha": "4f0482dac9df0e0fa146412dcaaaad230d077d8d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_5_COPY"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/983e00fd63f2dd9a8febb040d7990134da4d9766",
+      "git:hexsha": "983e00fd63f2dd9a8febb040d7990134da4d9766",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_5_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c14519efdfd54051802926ad8682225b089342ef",
+      "git:hexsha": "c14519efdfd54051802926ad8682225b089342ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_5_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/0809443b97cee2752cc67d9379da398def8de736",
+      "git:hexsha": "0809443b97cee2752cc67d9379da398def8de736",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_5_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/0fe6a434f20b45c027badd89bd393dd4085cf1f2",
+      "git:hexsha": "0fe6a434f20b45c027badd89bd393dd4085cf1f2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_6"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/2c532156b1d5b071652a2979980dd79fe17edab6",
+      "git:hexsha": "2c532156b1d5b071652a2979980dd79fe17edab6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_6_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/6a223b172d70ad2ce82801d9260f727edcba1dbc",
+      "git:hexsha": "6a223b172d70ad2ce82801d9260f727edcba1dbc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_6_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/631f3ce18ed9ae276b34105592a13f32df200260",
+      "git:hexsha": "631f3ce18ed9ae276b34105592a13f32df200260",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_2_6_REPACKAGED"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c21484b730221bc87ca26553155350292aa30f0d",
+      "git:hexsha": "c21484b730221bc87ca26553155350292aa30f0d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/b901f0b449bc01358ac5b9e7fb8c82910a0b22e7",
+      "git:hexsha": "b901f0b449bc01358ac5b9e7fb8c82910a0b22e7",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/d811a8ebc53de8dc80c7ddf04f0c5ac9f92bd6d2",
+      "git:hexsha": "d811a8ebc53de8dc80c7ddf04f0c5ac9f92bd6d2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/916fa4dc37bf0772288e87c4925f322475e11217",
+      "git:hexsha": "916fa4dc37bf0772288e87c4925f322475e11217",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_1_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/a7fcc5a44e243acd2ed820e9f059d7718776a9b4",
+      "git:hexsha": "a7fcc5a44e243acd2ed820e9f059d7718776a9b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_2_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/0ba3bb8bf1486a9b20662dba566d0505ce912252",
+      "git:hexsha": "0ba3bb8bf1486a9b20662dba566d0505ce912252",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_B1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/f9f45e699da2d84f60edc1919de9e727d98f5fa1",
+      "git:hexsha": "f9f45e699da2d84f60edc1919de9e727d98f5fa1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_B2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/92536e69e4dda4bdb3a3fdd224ec07f42ebc6fc2",
+      "git:hexsha": "92536e69e4dda4bdb3a3fdd224ec07f42ebc6fc2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_B3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/b86f33fa4ddef6ef31de8a0ddf0cfcc795b64e91",
+      "git:hexsha": "b86f33fa4ddef6ef31de8a0ddf0cfcc795b64e91",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/f468dded531a63d25b70f92a112cc38a764bccaa",
+      "git:hexsha": "f468dded531a63d25b70f92a112cc38a764bccaa",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/d8e87279ccfe4c04f61c94742ea593185427c80c",
+      "git:hexsha": "d8e87279ccfe4c04f61c94742ea593185427c80c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/f4853044131835912df73c0ea2598fe493151b9d",
+      "git:hexsha": "f4853044131835912df73c0ea2598fe493151b9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_0_RC4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/915946c9dcc80a6a16745b86540b82b2ddba1720",
+      "git:hexsha": "915946c9dcc80a6a16745b86540b82b2ddba1720",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/3c8e583efac85d8c2898ebf9e450d584aca6f0c1",
+      "git:hexsha": "3c8e583efac85d8c2898ebf9e450d584aca6f0c1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/0c14a39be2b8a8e9461921994033310fd567e8cb",
+      "git:hexsha": "0c14a39be2b8a8e9461921994033310fd567e8cb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/92e7e569ca9a6c92f24cc88c05e182d18ad62847",
+      "git:hexsha": "92e7e569ca9a6c92f24cc88c05e182d18ad62847",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_2_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/94ee7b2503166ad81cdbddb8a85c3f7e0dd65b27",
+      "git:hexsha": "94ee7b2503166ad81cdbddb8a85c3f7e0dd65b27",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_2_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c62affa974f80e48575ebc56f3c41799646d8209",
+      "git:hexsha": "c62affa974f80e48575ebc56f3c41799646d8209",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_2_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c61e891a65763f566722b27dca9580c9bcddc426",
+      "git:hexsha": "c61e891a65763f566722b27dca9580c9bcddc426",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_2_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/37f8fe84d934a92fe784c62e706b7aacf6fa4f97",
+      "git:hexsha": "37f8fe84d934a92fe784c62e706b7aacf6fa4f97",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/27676c620a7dbb3365311c3424554c603bb11470",
+      "git:hexsha": "27676c620a7dbb3365311c3424554c603bb11470",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3_1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/8cbc5815f783dfa226d12315577e965222bc0af6",
+      "git:hexsha": "8cbc5815f783dfa226d12315577e965222bc0af6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e8f924f51be5bc8bcd583ea96e5ef25f9b2ca72a",
+      "git:hexsha": "e8f924f51be5bc8bcd583ea96e5ef25f9b2ca72a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3_2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4c18b35a781a81238d44d12f889b4827bee3a7b3",
+      "git:hexsha": "4c18b35a781a81238d44d12f889b4827bee3a7b3",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3_2_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/af2986309044fd663a1b5ced2b400a1edc353278",
+      "git:hexsha": "af2986309044fd663a1b5ced2b400a1edc353278",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_3_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4777c3a5e4291af2420db57d008152c70c4a8f24",
+      "git:hexsha": "4777c3a5e4291af2420db57d008152c70c4a8f24",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/456836307569dd8b20847ec4c9551518cb8f087c",
+      "git:hexsha": "456836307569dd8b20847ec4c9551518cb8f087c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_4_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/980ba4455bada55d2b768f5a05e0ac5274571cb8",
+      "git:hexsha": "980ba4455bada55d2b768f5a05e0ac5274571cb8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_4_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/36f98d87b24c2f542b02abbf6ec1ee742f1b158b",
+      "git:hexsha": "36f98d87b24c2f542b02abbf6ec1ee742f1b158b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_5_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/4b2ec07989753b8f5e97cf0fdaa6cdd866ac30f5",
+      "git:hexsha": "4b2ec07989753b8f5e97cf0fdaa6cdd866ac30f5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_5_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/09043bfa6f1f9ebb946c7b159735c83259e3a89f",
+      "git:hexsha": "09043bfa6f1f9ebb946c7b159735c83259e3a89f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_6_RC4"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/1ec464dacd3c3b72ce163255ae42ee7fb6c2758e",
+      "git:hexsha": "1ec464dacd3c3b72ce163255ae42ee7fb6c2758e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_6_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/3a64cf6aff408a9cbdcb4d7456360a97d1a880f0",
+      "git:hexsha": "3a64cf6aff408a9cbdcb4d7456360a97d1a880f0",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_6_RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/360198dfb6a2d68f1702f616dfacee34ae0541bb",
+      "git:hexsha": "360198dfb6a2d68f1702f616dfacee34ae0541bb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_6_RC3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/425d8085cfcaab5a78bf0632f9ae77b7e9127cf8",
+      "git:hexsha": "425d8085cfcaab5a78bf0632f9ae77b7e9127cf8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_7_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/9801e2fb9fcbf7ddd19221e9342608940d778f8c",
+      "git:hexsha": "9801e2fb9fcbf7ddd19221e9342608940d778f8c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_8_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/eb5b11a25c9e61f9b25a540682816ebb103b735c",
+      "git:hexsha": "eb5b11a25c9e61f9b25a540682816ebb103b735c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "LANG_3_8_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/d9025c182d595ab34b25b27b0164d32394933b08",
+      "git:hexsha": "d9025c182d595ab34b25b27b0164d32394933b08",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "STRUTS_1_1_B2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/7837fd6f8778cf339889fc5708c4a7618b962c90",
+      "git:hexsha": "7837fd6f8778cf339889fc5708c4a7618b962c90",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "STRUTS_1_1_B3"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/93be87b21c78f990ef315fa86e8b9f4d90c28012",
+      "git:hexsha": "93be87b21c78f990ef315fa86e8b9f4d90c28012",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "STRUTS_1_1_RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e0b474c0d015f89a52c4cf8866fa157dd89e7d1c",
+      "git:hexsha": "e0b474c0d015f89a52c4cf8866fa157dd89e7d1c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.10"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/ac1070e84e42acf3c2ada36e4727c2d99b0fc48e",
+      "git:hexsha": "ac1070e84e42acf3c2ada36e4727c2d99b0fc48e",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.11-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/f62f0f59a33d2c42bd4236ea7122735de30d91fc",
+      "git:hexsha": "f62f0f59a33d2c42bd4236ea7122735de30d91fc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.11"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/105a350b154eac7c3f3a6bac94ec2cfb0fbe232b",
+      "git:hexsha": "105a350b154eac7c3f3a6bac94ec2cfb0fbe232b",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.12.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/bcc10b359318397a4d12dbaef22b101725bc6323",
+      "git:hexsha": "bcc10b359318397a4d12dbaef22b101725bc6323",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.13.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/c8774fa74adbbbcd4e5f915ab6bc3aa10d877419",
+      "git:hexsha": "c8774fa74adbbbcd4e5f915ab6bc3aa10d877419",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.14.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/a0bf7894ca8b8cf312c068c5c1618d24fd064acf",
+      "git:hexsha": "a0bf7894ca8b8cf312c068c5c1618d24fd064acf",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.15.0-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/535ec32c680a6581739a41bf97ecb8b8718c73b8",
+      "git:hexsha": "535ec32c680a6581739a41bf97ecb8b8718c73b8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/6a2a10d88885343cfe37c1d9fa42ac5edda7cab5",
+      "git:hexsha": "6a2a10d88885343cfe37c1d9fa42ac5edda7cab5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.16.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/29ccc7665f3bc5d84155a3092ab2209a053324e6",
+      "git:hexsha": "29ccc7665f3bc5d84155a3092ab2209a053324e6",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.17.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/17fbe6985da5ba527becfebfc468956a3d617a69",
+      "git:hexsha": "17fbe6985da5ba527becfebfc468956a3d617a69",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.18.0-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/5b59487808d0b86a94ad7a1ebd4c200e09b7be09",
+      "git:hexsha": "5b59487808d0b86a94ad7a1ebd4c200e09b7be09",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.18.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/3d1eb7718a79d18cc2ab57e7ab3b894426ec7c2f",
+      "git:hexsha": "3d1eb7718a79d18cc2ab57e7ab3b894426ec7c2f",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/eb3b1b4eee9d3ae18e407416a369f32836b6c4b4",
+      "git:hexsha": "eb3b1b4eee9d3ae18e407416a369f32836b6c4b4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.20.0-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/598dfc163b8b410fb3bb8794521206ec8dcec82a",
+      "git:hexsha": "598dfc163b8b410fb3bb8794521206ec8dcec82a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.20.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/e9e546b0c442b55418fce822737f6f9a0dd292f1",
+      "git:hexsha": "e9e546b0c442b55418fce822737f6f9a0dd292f1",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.21.0-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/155db038d73fe0ea49612d42ae70f6e48ee3ebb9",
+      "git:hexsha": "155db038d73fe0ea49612d42ae70f6e48ee3ebb9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "rel/commons-lang-3.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/562de6e40e0742f471adefcf05bd4b273d995028",
+      "git:hexsha": "562de6e40e0742f471adefcf05bd4b273d995028",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.22.0-RC1"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/abb39c22c0e538fff03ea4e53d78ee60c6c08092",
+      "git:hexsha": "abb39c22c0e538fff03ea4e53d78ee60c6c08092",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.9-RC2"
+    },
+    {
+      "@id": "https://repolex.ai/r/apache/commons-lang/commit/8b378885152075b44c5710d6dbcb8df4a5fb3223",
+      "git:hexsha": "8b378885152075b44c5710d6dbcb8df4a5fb3223",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "commons-lang-3.9-RC1"
+    }
+  ]
+}
